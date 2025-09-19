@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Yo_cuido_mi_cuerpo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/instrucciones"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:text="¡Hola! Este juego te enseñará a cuidar tu cuerpo. 🐝✨ La abejita te dirá nombres de partes del cuerpo, y tú debes decidir qué color de bolita poner en cada una. Verde 🍏: Se puede tocar, Amarillo 🌟: Hay que tocar con cuidado y Rojo 🔴: No se debe tocar. Cuando termines, la abejita te dirá cuántas respuestas acertaste y te mostrará cómo colocar bien las bolitas. ¡A jugar y aprender! 🎮🐝"
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,TextContrastCheck,TextSizeCheck" />
+        </FrameLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

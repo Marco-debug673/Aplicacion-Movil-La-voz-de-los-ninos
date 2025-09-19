@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Yo_cuido_mi_cuerpo">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/fondo_nina"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="187dp"
+        android:layout_height="278dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/nina"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="211dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/semaforo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="129dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="230dp"
+        android:src="@drawable/abeja_png"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="61dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="460dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_volumen_up"
+        tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="61dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="460dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_volumen_off"
+        tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="61dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_bubble_chart"
+        tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck,VisualLintBounds" />
+
+    <FrameLayout
+        android:id="@+id/ballContainer"
+        android:layout_width="706dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints,VisualLintBounds"
+        tools:layout_editor_absoluteX="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

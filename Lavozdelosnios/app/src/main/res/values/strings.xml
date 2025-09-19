@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">La voz de los niños</string>
+    <string name="games_for_kids">Juegos para niños</string>
+    <string name="play">Jugar</string>
+    <string name="What_do_you_want_to_play">¿Qué quieres jugar?</string>
+    <string name="game1">Yo cuido mi cuerpo</string>
+    <string name="game2">¿Cómo me siento?</string>
+</resources>

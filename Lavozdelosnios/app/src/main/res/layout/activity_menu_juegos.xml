@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuJuegos">
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/fondo_menu"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="40dp"
+            android:text="@string/What_do_you_want_to_play"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck,TextSizeCheck" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/abeja_png"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="148dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="420dp"
+        android:src="@drawable/img_menu_yo_cuido_mi_cuerpo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="154dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="570dp"
+        android:text="@string/game1"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck,TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="146dp"
+        android:layout_height="158dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="415dp"
+        android:src="@drawable/img_menu_como_me_siento"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="154dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="570dp"
+        android:text="@string/game2"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck,TextSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
